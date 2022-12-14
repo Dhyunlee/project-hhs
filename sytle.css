@@ -49,7 +49,8 @@ li {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 60px;
 }
 
 .header-container .gnb-menu ul {
@@ -90,8 +91,7 @@ li {
 .header-inner:hover {
   color: rgb(194, 192, 192);
   font-weight: 600;
-  background: white;
-
+  background:  rgb(210, 208, 208);
 }
 
 .header-inner:hover ul a {
@@ -121,6 +121,42 @@ li {
   color: rgb(194, 192, 192);
   font-weight: 600;
 }
+
+/* member_content */
+ul.member_content {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+ }
+
+ ul.cart-item li {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* move_conut -> 장바구니 갯수 */
+ul.member_content li .move_conut {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 4px;
+  right: 23px;
+}
+
+ul.member_content .cart-item{
+  position: relative;
+  padding-right: 30px;
+ }
+
+ ul.member_content li img{
+  width: 26px;
+  height: 26px;
+
+ }
+ ul.member_content li .move_conut:hover {
+  color: #000;
+ }
 
 
 /* footer */
@@ -169,6 +205,7 @@ footer {
   display: inline-block;
   font-size:12px ;
   line-height: 1.5;
+  margin-bottom: 30px;
 }
 
 .footer_info span::before{
@@ -181,3 +218,24 @@ footer {
   vertical-align: -1px;
 }
 
+.footer_img img {
+  width: 35px;
+  height: 35px;
+
+}
+
+.footer_img a {
+  padding-right: 5px;
+}
+
+.footer_section01 {
+  margin-top: 10px;
+  border-bottom: 1px solid seashell;
+  padding: 10px;
+}
+
+.footer_Copyright{
+  color: #909090;
+  font-size: 13px;
+  margin-top: 30px;
+}
