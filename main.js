@@ -13,10 +13,6 @@ new Swiper(".banner-container", {
     el: ".banner-pagination",
     clickable: true
   },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev ',
-  },
   spaceBetween: 0, // 이미지 사이  공백 없애기(= mergin 없앰) 
   // 무한 슬라이드
   loop: true,
