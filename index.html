@@ -1,189 +1,615 @@
 <!DOCTYPE html>
-<html lang="en">
+<div lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sytle.css">
-    <title>스파오닷컴</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>스파오닷컴</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/b46fa15daf.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    </head>
+    <div class="container">
+        <header>
+            <!-- top memu -->
+            <div class="header-inner">
+                <div class="header-container">
+                    <div class="logo">
+                        <a>
+                            <img src="https://spao.com/morenvyimg/top_logo_pc.png" alt="logo">
+                        </a>
+                        <!-- <img src="https://spao.com/morenvyimg/top_logo_pc_wh.png" alt="logo"> -->
 
-<div class="container">
-    <header>
-        <!-- top memu -->
-        <div class="header-inner">
-            <div class="header-container">
-                <div class="logo">
-                    <a>
-                        <img src="https://spao.com/morenvyimg/top_logo_pc.png" alt="logo">
-                    </a>
-                    <!-- <img src="https://spao.com/morenvyimg/top_logo_pc_wh.png" alt="logo"> -->
+                    </div>
+                    <nav class="gnb-menu">
+                        <div class="header_bg">
+                            <ul>
+                                <li class="first_item">
+                                    <a href="javascript: void(0)">
+                                        PUFFER<br />UNIVERSE
+                                    </a>
+                                </li>
 
-                </div>
-                <nav class="gnb-menu">
-                    <div class="header_bg">
-                        <ul>
-                            <li class="first_item">
-                                <a href="javascript: void(0)">
-                                    PUFFER<br />UNIVERSE
-                                </a>
+                                <li class="Second_item">
+                                    <a href="javascript: void(0)">BEST</a>
+                                </li>
+
+                                <li class="Second_item">
+                                    <a href="javascript: void(0)">WOMEN</a>
+                                </li>
+
+                                <li class="Second_item">
+                                    <a href="javascript: void(0)">MEN</a>
+                                </li>
+
+                                <li class="Second_item">
+                                    <a href="javascript: void(0)">COLLABORATION</a>
+                                </li>
+
+                                <li class="Second_item">
+                                    <a href="javascript: void(0)">KIDS</a>
+                                </li>
+
+                                <li class="Second_item">
+                                    <a href="javascript: void(0)">COMMUNITY</a>
+                                </li>
+
+                                <li class="Second_item">
+                                    <a href="javascript: void(0)">런칭 캘린더</a>
+                                </li>
+
+                                <li class="Second_item">
+                                    <a href="javascript: void(0)">리뷰랩</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <!-- top mypage memu -->
+                    <nav class="user-menu">
+                        <ul class="member_content">
+                            <li class="menu-item"><a href="#" target="_parent"></a>
+                                <!-- <img src="Image/top_mypage_wh.png"> -->
+                                <img src="Image/top_mypage.png">
                             </li>
-
-                            <li class="Second_item">
-                                <a href="javascript: void(0)">BEST</a>
+                            <li class="menu-item"><a href="#" target="_parent"></a>
+                                <!-- <img src="Image/top_search_wh.png"> -->
+                                <img src="Image/top_search.png">
                             </li>
-
-                            <li class="Second_item">
-                                <a href="javascript: void(0)">WOMEN</a>
+                            <li class="menu-item"><a href="#" target="_parent"></a>
+                                <!-- <img src="Image/top_wish_wh.png"> -->
+                                <img src="Image/top_wish.png">
                             </li>
-
-                            <li class="Second_item">
-                                <a href="javascript: void(0)">MEN</a>
-                            </li>
-
-                            <li class="Second_item">
-                                <a href="javascript: void(0)">COLLABORATION</a>
-                            </li>
-
-                            <li class="Second_item">
-                                <a href="javascript: void(0)">KIDS</a>
-                            </li>
-
-                            <li class="Second_item">
-                                <a href="javascript: void(0)">COMMUNITY</a>
-                            </li>
-
-                            <li class="Second_item">
-                                <a href="javascript: void(0)">런칭 캘린더</a>
-                            </li>
-
-                            <li class="Second_item">
-                                <a href="javascript: void(0)">리뷰랩</a>
+                            <li class="cart-item">
+                                <a href="#" target="_parent"></a>
+                                <!-- <img src="Image/top_cart_pc_wh.png"> -->
+                                <img src="Image/top_cart_pc.png">
+                                <span class="move_conut">
+                                    <span>0</span>
+                                </span>
                             </li>
                         </ul>
-                    </div>
-                </nav>
-
-                <!-- top mypage memu -->
-                <nav class="user-menu">
-                    <ul class="member_content">
-                        <li class="menu-item"><a href="#" target="_parent"></a>
-                            <img src="Image/top_mypage_wh.png">
-                        </li>
-                        <li class="menu-item"><a href="#" target="_parent"></a>
-                            <img src="Image/top_search_wh.png">
-                        </li>
-                        <li class="menu-item"><a href="#" target="_parent"></a>
-                            <img src="Image/top_wish_wh.png">
-                        </li>
-                        <li class="cart-item">
-                            <a href="#" target="_parent"></a>
-                            <img src="Image/top_cart_pc_wh.png">
-                            <span class="move_conut">
-                                <span>0</span>
-                            </span>
-                        </li>
-                    </ul>
-                </nav>
+                    </nav>
+                </div>
             </div>
-        </div>
-    </header>
-</div>
-<!-- https://video.spaobo.com/20221130_pre-christams_main_video.gif -->
+        </header>
+        <!-- https://video.spaobo.com/20221130_pre-christams_main_video.gif -->
 
-<div class="section_wrap">
-    <div class="section_img">
+        <main>
+            <section class="banner_wrap">
+                <div class="banner-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./image/banner/items01.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./image/banner/items02.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./image/banner/items03.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./image/banner/items04.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="banner-pagination"></div>
+                </div>
+            </section>
+
+            <section class="prod_wrap weekly_best">
+                <div class="prod-container">
+                    <h2 class="prod-title">Weekly Best</h2>
+                    <ul class="prod-tabs">
+                        <li class="tab-item">WOMEN</li>
+                        <li class="tab-item">MEN</li>
+                        <li class="tab-item">KIDS</li>
+                        <li class="tab-item">PAJAMA</li>
+                    </ul>
+                    <div class="prod-cards">
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/2b7c1b4b0ea53f3f324d11d9eaa402a8.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">1</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">울70% 롱 벨티드 코트_SPJWC4...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">179,000</span>
+                                    <span class="price-text sale_price">199,000 </span>
+                                    <span class="price-text sale_num">10%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202212/f90678752e8937a669f66964c8831709.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">2</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">롱 벨티드 발마칸 코트_SPJWC4...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">119,000</span>
+                                    <span class="price-text sale_price">129,000</span>
+                                    <span class="price-text sale_num">8%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">60</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/b902b4e25b8a993bee916d35c85daf78.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">3</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">세미오버핏 테일러드 코트_SPJW...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">119,000</span>
+                                    <span class="price-text sale_price">129,000</span>
+                                    <span class="price-text sale_num">8%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">9</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/5a4fa62b2705f7c50a61d57c71b94e96.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">4</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">파스텔 푸퍼_SPJPC4TG01</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">69,000</span>
+                                    <span class="price-text sale_price"></span>
+                                    <span class="price-text sale_num"></span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">1,459</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/2b7c1b4b0ea53f3f324d11d9eaa402a8.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">1</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">울70% 롱 벨티드 코트_SPJWC4...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">179,000</span>
+                                    <span class="price-text sale_price">199,000 </span>
+                                    <span class="price-text sale_num">10%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202212/f90678752e8937a669f66964c8831709.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">2</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">롱 벨티드 발마칸 코트_SPJWC4...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">119,000</span>
+                                    <span class="price-text sale_price">129,000</span>
+                                    <span class="price-text sale_num">8%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">60</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/b902b4e25b8a993bee916d35c85daf78.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">3</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">세미오버핏 테일러드 코트_SPJW...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">119,000</span>
+                                    <span class="price-text sale_price">129,000</span>
+                                    <span class="price-text sale_num">8%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">9</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/5a4fa62b2705f7c50a61d57c71b94e96.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">4</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">파스텔 푸퍼_SPJPC4TG01</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">69,000</span>
+                                    <span class="price-text sale_price"></span>
+                                    <span class="price-text sale_num"></span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">1,459</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="prod_wrap new_prod">
+                <div class="prod-container">
+                    <h2 class="prod-title">What's NEW</h2>
+                    <div class="prod-cards">
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/2b7c1b4b0ea53f3f324d11d9eaa402a8.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">1</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">울70% 롱 벨티드 코트_SPJWC4...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">179,000</span>
+                                    <span class="price-text sale_price">199,000 </span>
+                                    <span class="price-text sale_num">10%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202212/f90678752e8937a669f66964c8831709.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">2</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">롱 벨티드 발마칸 코드_SPJWC4...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">119,000</span>
+                                    <span class="price-text sale_price">129,000</span>
+                                    <span class="price-text sale_num">8%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">60</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/b902b4e25b8a993bee916d35c85daf78.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">3</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">세미오버핏 테일러드 코트_SPJW...</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">119,000</span>
+                                    <span class="price-text sale_price">129,000</span>
+                                    <span class="price-text sale_num">8%</span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">9</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-card">
+                            <div class="prod-img">
+                                <img src="https://spao.com/web/product/small/202211/5a4fa62b2705f7c50a61d57c71b94e96.jpg"
+                                    alt="" />
+                            </div>
+                            <div class="pos-num prod-num">4</div>
+                            <div class="prod-cnt">
+                                <div class="prod-name">파스텔 푸퍼_SPJPC4TG01</div>
+                                <div class="prod-price">
+                                    <span class="price-text origin_price">69,000</span>
+                                    <span class="price-text sale_price"></span>
+                                    <span class="price-text sale_num"></span>
+                                </div>
+                                <div class="prod-colors">
+                                    <span class="colors colors-bg"></span>
+                                </div>
+                                <div class="likes">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="prod-review_count">
+                                    <span class="name">리뷰</span>
+                                    <span class="count">1,459</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main_ban_wrap">
+                <div class="main_banner-inner">
+                    <div class="img_wrap">
+                        <a class="img_link" href="javascript:void(0)">
+                            <img src="./image/main-ban_img_a.jpg" alt="ban_img">
+                        </a>
+                    </div>
+                    <div class="img_wrap">
+                        <a class="img_link" href="javascript:void(0)">
+                            <img src="./image/main-ban_img_b.jpg" alt="ban_img">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="prod_wrap photo_review">
+                <div class="prod-container">
+                    <h2 class="prod-title">Photo Review +</h2>
+                    <div class="review_cards">
+                        <div class="review_card">
+                            <a href="javascript:void(0)">
+                                <img src="./image/photo-review/1/item21.jpg" alt="review_img">
+                            </a>
+                        </div>
+                        <div class="review_card">
+                            <a href="javascript:void(0)">
+                                <img src="./image/photo-review/1/item22.jpg" alt="review_img">
+                            </a>
+                        </div>
+                        <div class="review_card">
+                            <a href="javascript:void(0)">
+                                <img src="./image/photo-review/1/item23.jpg" alt="review_img">
+                            </a>
+                        </div>
+                        <div class="review_card">
+                            <a href="javascript:void(0)">
+                                <img src="./image/photo-review/1/item24.jpg" alt="review_img">
+                            </a>
+                        </div>
+                        <div class="review_card">
+                            <a href="javascript:void(0)">
+                                <img src="./image/photo-review/1/item25.jpg" alt="review_img">
+                            </a>
+                        </div>
+                        <div class="review_card">
+                            <a href="javascript:void(0)">
+                                <img src="./image/photo-review/1/item26.jpg" alt="review_img">
+                            </a>
+                        </div>
+                        <div class="review_card">
+                            <a href="javascript:void(0)">
+                                <img src="./image/photo-review/1/item27.jpg" alt="review_img">
+                            </a>
+                        </div>
+                        <div class="review_card">
+                            <a href="javascript:void(0)">
+                                <img src="./image/photo-review/1/item28.jpg" alt="review_img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="prod_wrap trend">
+                <div class="prod-container">
+                    <h2 class="prod-title">Trend</h2>
+                    <div class="trend_cards">
+                        <div class="trend_card left">
+                            <a href="javascript: void(0)">
+                                <img src="./image/trend_a.jpg" alt="">
+                                <p>SPAO X GLOVERALL U+ff5c 더플코트 컬렉션</p>
+                            </a>
+                        </div>
+                        <div class="trend_card right">
+                            <a href="javascript: void(0)">
+                                <img src="./image/trend_b.jpg" alt="">
+                                <p>THE NEW PREPPY U+ff5c 우리가 발견한 새로운 클래식</p>
+                            </a>
+                        </div>
+
+                        <div class="trend_card left">
+                            <a href="javascript: void(0)">
+                                <img src="./image/trend_a.jpg" alt="">
+                                <p>SPAO X GLOVERALL U+ff5c 더플코트 컬렉션</p>
+                            </a>
+                        </div>
+                        <div class="trend_card right">
+                            <a href="javascript: void(0)">
+                                <img src="./image/trend_b.jpg" alt="">
+                                <p>THE NEW PREPPY U+ff5c 우리가 발견한 새로운 클래식</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="prod_wrap snap">
+                <div class="prod-container snap-container">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer_wrap">
+                <div class="footer_main">
+                    <p>
+                        <h2>1670-9999</h2>
+                    </p>
+                    <p>상담시간 : 오전 10시~오후 5시 (토요일, 공휴일 휴무)</p>
+                    <p class="email_color">email : kane5178@naver.com (단체주문 문의)</p>
+                    <p class="email_color">email : skyblue5030@nate.com (마케팅 협찬 문의)</p>
+                </div>
+            </div>
+
+            <div class="footer_section">
+                <div class="footer_info">
+                    HHS
+                    <span></span>
+                    사업자등록번호 : 113-85-19030 [사업자정보확인]
+                    <span></span>
+                    통신판매업 신고번호 : 제 2022-081575 호
+                    <br>
+                    대표이사 : 이동현
+                    <span></span>
+                    경기도 부천시 원미구 소향로 206
+                    <span></span>
+                    개인정보 보호책임자 : 이동훈
+                    <br>
+                    사옥 주소로 상품을 발송하시면 교환ㆍ환불이 불가하므로, 교환ㆍ환불은 사이트 내에서 신청해주시기 바랍니다.
+                    <br>
+                    <br>
+                    본 사이트는 상업적인 용도가 아닌 학습 목적으로 만든 사이트입니다.
+                </div>
+
+                <div class="footer_img">
+
+                    <a href="https://www.facebook.com" alt="페이스북" target="_blank">
+                        <img src="Image/facebook.png">
+                    </a>
+
+                    <a href="https://www.instagram.com/" alt="인스타그램" target="_blank">
+                        <img src="Image/instargram.png">
+                    </a>
+
+                    <a href="https://www.youtube.com/" alt="유튜브" target="_blank">
+                        <img src="Image/youture.png">
+                    </a>
+
+                    <a href="https://www.naver.com" alt="블로그" target="_blank">
+                        <img src="Image/blog.png">
+                    </a>
+
+                    <a href="https://www.twiter.com" alt="트위터" target="_blank">
+                        <img src="Image/twiter.png">
+                    </a>
+                </div>
+
+                <!-- footer border -->
+                <div class="footer_section01"></div>
+
+                <!-- footer Copyright -->
+                <div class="footer_Copyright">
+                    Copyright ⓒ HHS All Right Reserved.
+                </div>
+
+            </div>
+        </footer>
     </div>
 </div>
 
-<div class="section_wrap">
-    <div class="section_img">
-    </div>
-</div>
-
-<div class="section_wrap">
-    <div class="section_img">
-    </div>
-</div>
-
-<div class="section_wrap">
-    <div class="section_img">
-    </div>
-</div>
-
-<div class="section_wrap">
-    <div class="section_img">
-    </div>
-</div>
-
-<footer>
-    <div class="footer_wrap">
-        <div class="footer_main">
-            <p>
-                <h2>1670-9999</h2>
-            </p>
-            <p>상담시간 : 오전 10시~오후 5시 (토요일, 공휴일 휴무)</p>
-            <p class="email_color">email : kane5178@naver.com (단체주문 문의)</p>
-            <p class="email_color">email : skyblue5030@nate.com (마케팅 협찬 문의)</p>
-        </div>
-    </div>
-
-    <div class="footer_section">
-        <div class="footer_info">
-            HHS
-            <span></span>
-            사업자등록번호 : 113-85-19030 [사업자정보확인]
-            <span></span>
-            통신판매업 신고번호 : 제 2022-081575 호
-            <br>
-            대표이사 : 이동현
-            <span></span>
-            경기도 부천시 원미구 소향로 206
-            <span></span>
-            개인정보 보호책임자 : 이동훈
-            <br>
-            사옥 주소로 상품을 발송하시면 교환ㆍ환불이 불가하므로, 교환ㆍ환불은 사이트 내에서 신청해주시기 바랍니다.
-            <br>
-            <br>
-            본 사이트는 상업적인 용도가 아닌 학습 목적으로 만든 사이트입니다.
-        </div>
-
-        <div class="footer_img">
-
-            <a href="https://www.facebook.com" alt="페이스북" target="_blank">
-                <img src="Image/facebook.png">
-            </a>
-
-            <a href="https://www.instagram.com/" alt="인스타그램" target="_blank">
-                <img src="Image/instargram.png">
-            </a>
-
-            <a href="https://www.youtube.com/" alt="유튜브" target="_blank">
-                <img src="Image/youture.png">
-            </a>
-
-            <a href="https://www.naver.com" alt="블로그" target="_blank">
-                <img src="Image/blog.png">
-            </a>
-
-            <a href="https://www.twiter.com" alt="트위터" target="_blank">
-                <img src="Image/twiter.png">
-            </a>
-        </div>
-
-        <!-- footer border -->
-        <div class="footer_section01"></div>
-
-        <!-- footer Copyright -->
-        <div class="footer_Copyright">
-            Copyright ⓒ HHS All Right Reserved.
-        </div>
-
-    </div>
-</footer>
-
-
+<script src="./main.js"></script>
 </body>
 
 </html>
